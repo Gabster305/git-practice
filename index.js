@@ -1,15 +1,12 @@
-const salesTaxRate = 0.07
+switch(fruit) {
+case 0: 
+orange = "orange";
+break;
+case 1:
+    apple = "red";
+    case 2:
+        banana = "yellow";
+        
 
-function calcSalesTax(taxRate, subtotal) {
-    const taxTotal = taxRate * subtotal 
-    return taxTotal
+
 }
-
-const customerSubtotal = 20.00
-const customerSalesTax = calcSalesTax(salesTaxRate, customerSubtotal)
-const customerTotal = customerSubtotal + customerSalesTax
-
-console.log(`Subtotal:   ${customerSubtotal.toFixed(2)}`)
-console.log(`Sales Tax:   ${customerSalesTax.toFixed(2)}`)
-console.log('------------------')
-console.log(`Total:   ${customerTotal.toFixed(2)}`)
